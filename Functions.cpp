@@ -61,12 +61,10 @@ int CountWords(char * string, int size){
 }
 
 void CountCodes(char ** words, int n_words, int * size_of_word, int * codes){
-    int code_word = 0;
     for (int i = 0; i < n_words;i++){
         for (int j = 0; j < size_of_word[i] - 1;j++){
             codes[i] += (int)words[i][j];
         }
-        code_word = 0;
     }
 }
 
@@ -94,14 +92,14 @@ unsigned int CheckUnsigned() {
 
 		std::cin.clear();
 		std::cin.ignore(10000, '\n');
-		std::cout << "Неверный формат ввода! Необходими ввести целое неотрицательное число!\n";
+		std::cout << "Incorrect input format! You need to enter a non-negative integer!\n";
 	}
 
 	return input;
 }
 
 void repeat(){
-    std::cout << "Повторить решение?(y/n) ";
+    std::cout << "Repeat solution?(y/n) ";
 	char answer;
 	std::cin >> answer;
 
@@ -116,7 +114,7 @@ void repeat(){
 			break;
 		}
 		else {
-			std::cout << "Неверный символ!\n";
+			std::cout << "Wrong character!\n";
 			std::cin.ignore(10000, '\n');
 			std::cin >> answer;
 		}

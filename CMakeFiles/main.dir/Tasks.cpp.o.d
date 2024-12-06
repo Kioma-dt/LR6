@@ -150,4 +150,5 @@ CMakeFiles/main.dir/Tasks.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/roma/Documents/453503/ОАиП/LR6/Functions.h
+ /home/roma/Documents/453503/ОАиП/LR6/Functions.h \
+ /home/roma/Documents/453503/ОАиП/LR6/Tasks.h

@@ -190,6 +190,7 @@ CMakeFiles/main.dir/Functions.cpp.o: Functions.cpp \
 
 CMakeFiles/main.dir/Tasks.cpp.o: Tasks.cpp \
   Functions.h \
+  Tasks.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1076,10 +1077,6 @@ main.cpp:
 
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
-Tasks.h:
-
-/usr/include/x86_64-linux-gnu/sys/stat.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
@@ -1645,6 +1642,10 @@ Functions.h:
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
+Tasks.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
